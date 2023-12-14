@@ -155,7 +155,8 @@ TW_EXCLUDE_LPDUMP := true
 TW_EXTRA_LANGUAGES := true
 TW_FRAMERATE := 60
 TW_INPUT_BLACKLIST := "hbtp_vm"
-TW_SCREEN_BLANK_ON_BOOT := true
+# Test without this line as it breaks touch in some transsion A12 devices - IMYdev
+#TW_SCREEN_BLANK_ON_BOOT := true
 TW_NO_HAPTICS := true
 TW_THEME := portrait_hdpi
 TW_USE_TOOLBOX := true
